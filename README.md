@@ -119,7 +119,7 @@ runcmd:
 |Ubuntu      |18.04.3 (LTS) x64|**success**|2020-03-30|
 |Ubuntu      |19.10 x64        |**success**|2020-03-30|
 |Ubuntu      |20.04 x64        |**success**|2022-03-23|
-|Ubuntu      |22.04 x64        |**success**|2023-06-05|
+|Ubuntu      |22.04 x64        |**success**|2024-08-09|
 |Ubuntu      |22.10 x64        | _failure_ |2023-06-05|
 |Ubuntu      |23.10 x64        | _failure_ |2023-11-16|
 
@@ -129,7 +129,7 @@ To set up a NixOS Vultr server, instantiate an Ubuntu box with the following "Cl
 ```bash
 #!/bin/sh
 
-curl https://raw.githubusercontent.com/elitak/nixos-infect/master/nixos-infect | NIX_CHANNEL=nixos-23.05 bash
+curl https://raw.githubusercontent.com/elitak/nixos-infect/master/nixos-infect | NIX_CHANNEL=nixos-24.05 bash
 ```
 
 Allow for a few minutes over the usual Ubuntu deployment time for NixOS to download & install itself.
